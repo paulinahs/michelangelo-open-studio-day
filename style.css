@@ -1,0 +1,172 @@
+/* Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Cinzel', serif;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c4632;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #a67c52;
+}
+
+
+
+/* Hero */
+.hero {
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+
+
+/* Workshops = Flexbox */
+
+#workshops {
+    background-color: #f8f4ee;
+    padding: 3rem 2rem;
+}
+
+
+.card-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+
+
+/* Schedule */
+#schedule {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+/* Schedule = Grid */
+.schedule-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+
+
+/* Footer */
+#contact {
+    background-color: #f8f4ee;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .schedule-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+}
