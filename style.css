@@ -55,6 +55,7 @@ nav a:hover {
 /* Hero */
 .hero {
     text-align: center;
+    padding: 4rem;
 }
 
 .hero-image {
@@ -73,13 +74,13 @@ h2{
 
 .button {
     display: inline-block;
-    background-color: #a67c52;
+    background-color: #dead7d;
     color: white;
     text-decoration: none;
     padding: 12px 24px;
     border-radius: 8px;
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .button:hover {
