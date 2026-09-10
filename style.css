@@ -72,7 +72,9 @@ h2{
 }
 
 
-.button {
+.button,
+.button:link,
+.button:visited {
     display: inline-block;
     background-color: #dead7d;
     color: white;
