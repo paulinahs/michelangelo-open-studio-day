@@ -89,6 +89,11 @@ h2{
     background-color: #8c6540;
 }
 
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Workshops = Flexbox */
 
 #workshops {
